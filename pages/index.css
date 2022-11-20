@@ -74,7 +74,7 @@
 
 .header__lang-item {
   outline: 1px solid red;
-  margin: 18px 0 0 auto;
+  margin: 18px 0 0;
   padding: 0;
   display: flex;
   list-style: none;
@@ -157,7 +157,7 @@
 
 .intro__title {
   outline: 1px solid red;
-  margin: 0 0 33px;
+  margin: 0 auto 33px;
   font-size: 54px;
   font-style: normal;
   line-height: 1.07;
@@ -167,7 +167,7 @@
 
 .intro__text {
   outline: 1px solid red;
-  margin: 0 0 36px 0;
+  margin: 0 0 36px;
   max-width: 690px;
   font-size: 16px;
   font-style: normal;
@@ -180,7 +180,7 @@
   outline: 1px solid red;
   margin: 0;
   padding: 0;
-  margin: 0 0 2px 0;
+  margin: 0 auto 2px;
   font-size: 12px;
   font-style: normal;
   line-height: 1.5;
@@ -225,10 +225,10 @@
 
 .place {
   outline: 1px solid red;
-  margin: 0 0 80px 0;
+  margin: 0 auto 80px;
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-  grid-gap: 40px 40px;
+  gap: 40px;
 }
 
 .place:last-child {
@@ -257,13 +257,13 @@
 
 .place__website {
   outline: 1px solid red;
-  margin: 0 0 8px 0;
+  margin: 0;
   align-self: end;
 }
 
 .place__title {
   outline: 1px solid red;
-  margin: 8px 0 0 0;
+  margin: 0;
   align-self: end;
   font-size: 72px;
   font-style: normal;
@@ -272,9 +272,20 @@
   color: #ffffff;
 }
 
+.place__url-heading {
+  margin: 0;
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+}
+
 .place__paragraph {
   outline: 1px solid red;
-  margin: 0 0 24px 0;
+  margin: 0 auto 26px;
   font-size: 18px;
   font-style: normal;
   line-height: 1.63;
