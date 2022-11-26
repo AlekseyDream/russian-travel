@@ -19,7 +19,6 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .place__image {
-    max-width: 320px;
-    max-height: 320px;
+    max-width: 100%;
   }
 }
