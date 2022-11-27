@@ -15,3 +15,7 @@
   opacity: 0.3;
   transition: .350s ease;
 }
+
+.cover__overlay:hover::before  {
+  opacity: 0.8;
+}

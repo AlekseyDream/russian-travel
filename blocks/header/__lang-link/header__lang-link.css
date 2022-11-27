@@ -1,5 +1,5 @@
 .header__lang-link {
-  margin-right: 18px;
+
   font-size: 24px;
   font-style: normal;
   line-height: 1.17;
@@ -9,8 +9,9 @@
   transition: .350s ease;
 }
 
-.header__lang-link:last-child {
-  margin-right: 0px;
+.header__lang-link:hover {
+  opacity: 0.8;
+  text-decoration:underline;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
